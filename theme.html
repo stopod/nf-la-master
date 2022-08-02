@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>京都大学「ニセNF」</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9
+      ]><script src="/kyoto-u/assets/js/ie8-responsive-file-warning.js"></script
+    ><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div
+      class="jumbotron"
+      style="
+        background: url(assets/img/background_top_image.jpg);
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <h1 class="display-4">
+          京都大学「<span style="color: #ff0000;">ニセ</span>NF」
+        </h1>
+        <p>
+          決選投票受付中！
+          <br><a
+          class="btn btn-info"
+          href="theme.html"
+          role="button"
+          >本年度投票テーマ案一覧について</a
+        >
+        </p>
+        <!-- <p class="lead">
+          <a class="btn btn-info" href="#" role="button">統一テーマ募集中！</a>
+        </p> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <!-- index -->
+        <li role="presentation">
+          <a href="index.html">ホーム</a>
+        </li>
+        <!-- ニセNFについて -->
+        <li role="presentation"><a href="howNF.html">ニセNFってなに？</a></li>
+        <!-- 反自粛について -->
+        <li role="presentation"><a href="antiRestraint.html">反自粛</a></li>
+        <!-- 企画内容について -->
+        <li role="presentation" ><a href="planning.html">企画内容</a></li>
+        <!-- 各種ポリシー -->
+        <li role="presentation" class="dropdown">
+          <a
+            class="dropdown-toggle"
+            data-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+          >
+            運営方針 <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li role="presentation">
+              <a data-toggle="modal" data-target="#ModalCenterF">
+                新型コロナウィルス感染症対策について
+              </a>
+            </li>
+            <li role="presentation">
+              <a data-toggle="modal" data-target="#ModalCenterS">
+                飲酒に関する注意
+              </a>
+            </li>
+            <li role="presentation">
+              <a data-toggle="modal" data-target="#ModalCenterT">
+                ごみ捨てについて
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- 警察対策 -->
+        <li role="presentation">
+          <a data-toggle="modal" data-target="#ModalCenterY">
+            鴨川の使用許可
+          </a>
+        </li>
+        <li role="presentation"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+      <div class="row">
+        <div class="col-md-12">
+          <!-- タイトル -->
+          <h2 class="text-center">統一テーマ</h2><br>
+          <!-- タイトル‗詳細 -->
+          <div class="text-center">
+            <div>
+              <h4><strong>統一テーマ投票について</strong></h4>
+              <p>
+                今年度より、統一テーマ投票は1段階の形式で行われます！<br>
+                応募された統一テーマ案について決選投票を行い、今年度のニセ11月祭の統一テーマを決定いたします。<br>
+                新型コロナウイルスの影響で今年のニセ11月祭が延期・中止となった場合、応募いただいたテーマ案は当選・落選にかかわらずすべて破棄させていただきます。ご了承ください。<br>
+                ご応募いただいた統一テーマ案のなかで、明らかに特定の人々を攻撃・差別していると判断できる表現が含まれるものは投票候補から除外しました。
+                <br>
+                <a
+                  class="btn btn-info"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScmol8BfjSi-QhdMPtHbQuu4Ua83STmeSIbWhhx09hlnnM3sQ/viewform"
+                  role="button"
+                  style="margin-top:20px"
+                >投票フォームへ
+                </a>
+              </p>
+            </div>
+            <br>
+
+            <div>
+              <h4><strong>決選投票</strong></h4>
+              <p>9月8日(火)0:00　～　9月30日(水)23:55</p>
+            </div>
+            <br>
+
+            <div style="text-align: left">
+              <h4 style="text-align: center"><strong>本年度統一テーマ案一覧</strong></h4>
+              <br>
+              <div>
+                <p class="thems_style">人の為の偽物。</p>
+                <p></p>
+              </div>
+              <br>
+              
+              <div>
+                <p class="thems_style">京大！？いやFランやないかい！！</p>
+                <p>いくら京都大学といえども、所詮我々は東大の足元にも及ばず、就活においては早慶にすら完敗する地方大学生に過ぎない。にも関わらず、京大生の中にはあたかも自分が日本の中でもトップ層に属する人間であるなどと錯誤し、あろうことか他大学の学生を見下す者が少なからず存在する。このテーマを恥知らずな京大生どもに突きつけることによって、本来本学学生が持つべき謙虚さを取り戻していきたいものである。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">うんち！！</p>
+                <p>コロナ禍によって世間に漂う無力感の中であっても、我々人間は日々を生きるために自身の持てる力を最大限に発揮して戦いに臨むことがある。コロナ禍によって様々な活動が制限され日常が以前のようなものではなく新しい日常(ここで非日常という言葉は使わないことが適切であろう)になる中で前述した戦い(排便)に臨む精神を、その踏ん張る力強さを、その一筋の希望を見出す姿勢をテーマ案に込めた。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">頑張ろう！ニッポン！！！</p>
+                <p>この2か月で、私たちの暮らしは一変しました。楽しみにしていたライブが中止となった。友達との飲み会が取りやめになった。行きたいところに行けない。みんなと会えない。かつての日常は失われました。ただ、皆さんのこうした行動によって多くの命が確実に救われています。お一人お一人の御協力に心より感謝申し上げます。率直に申し上げて、政府や自治体だけの取組では、この緊急事態を乗り越えることはできない。これは厳然たる事実です。感染者の爆発的な増加を回避できるのか。一人でも多くの重症者を死の淵（ふち）から救うことができるのか。皆さんを、そして皆さんが愛する家族を守ることができるのか。全ては皆さんの行動にかかっています。改めて御協力をお願いします。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">ベンツで集うNF</p>
+                <p>ベンツで集いたいからです。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">君達を信じ、NFを開催したい。と言うとでも思ったか？バーカバーカ</p>
+                <p>君達を信じ、NFを開催したい。と言うとでも思ったか？バーカバーカ</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">大学院への進学は18歳人口の5.5％に留まっており、短期大学や２年制の専門学校を卒業した者では概ね20歳以上で就労し、一定の稼得能力がある者がいることを踏まえると、そうした者とのバランスを考える必要があること等の理由から、そのような取扱いをしているものですで。</p>
+                <p>本テーマは高等教育の就学支援制度にかかわる質問と回答のQ79に対する文部省からの回答である。大学院生がこの制度の対象になるべきかについて諸説あるが、少なくともこの回答が現代の日本社会の学問、研究、高等教育に対する視線を端的に示した名文であることは十分確からしい。そう考えると、京都大学と社会を結ぶ窓口の一つである11月祭にこれほど相応しいテーマはあるまいま。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">等間隔フェスティバル</p>
+                <p>感染症対策としてソーシャルディスタンスを取ることが推奨されている中で、お祭りをするにはどうすれば良いのか。そのヒントを鴨川名物の等間隔カップルが提示してくれていたのではないか。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">偽りもしくはノンフィクション</p>
+                <p>Non-Fictionという言葉は、November Festivalと同じ頭文字を持つ。第1回ということでテーマはシンプルなものが好いと思い考えた。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">オナニーしようと思ってパンツを脱いで寒いなと感じたら、そろそろニセNFの季節だ！</p>
+                <p>四季のある豊かな国にいるからには、季節に対して敏感でありたい。性感帯も敏感でありたい。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">ぼくたちだけで　いっしょうけんめい　つくりました　ぜひ　きてください。</p>
+                <p>当局に怒られた時、小学生のようなピュアな気持ちで一生懸命がんばったことを伝えたら許してもらえるんじゃないかと思いました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">対偶もまた真、ニセNFは偽。</p>
+                <p>あくまでニセであることをアピールするために関係のない待遇を持ち出しました。なんとなくカッコいい感じを演出してみました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">こんなご時世に、えらいがんばりはりますなぁ。</p>
+                <p>京都人の生き霊を肉体に宿したところ浮かんできました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">本家より、アクセス良好。</p>
+                <p>出町柳駅から歩かなくてもいいのは実は嬉しい気がしたのでアピールポイントにしてみました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">NFって応仁の乱以外で中止になったことないらしいよ。</p>
+                <p>祇園祭のパクリだし普通に嘘ですがニセなのでいいかなと思いました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">N< 2メートル >F</p>
+                <p>ソーシャルディスタンスを守るつもりがあることをアピールしてみました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">新学長、見てるか！？</p>
+                <p>新学長に変わったこともあり、彼も遊びに来てくれたらいいなと思いました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">感染の恐れがあるため、当局のみなさんは自粛してください。</p>
+                <p>当局が来て感染したらかわいそうなので来ない方がいいと思い書きました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">何卒ご了承できず、申し訳ございません。</p>
+                <p>NF実行委員会が何卒ご了承くださいと書いていたので、何卒ご了承くださいと言われても了承できないパターンがあるという意味で書きました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">本イベントは、京都大学とは一切関係ございません。</p>
+                <p>ニセなので、関係ないアピールしてみました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">正直、家にいるのも飽きた。</p>
+                <p>今の自分の気持ちです。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">自粛を自粛します。</p>
+                <p>気持ちが伝わればいいなと思います。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">アルコールで消毒すれば大丈夫。</p>
+                <p>アルコールで消毒するから大丈夫な気持ちを込めました。嘘はついてない。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">これもまた、バンクシー</p>
+                <p>バンクシーなら許されるらしいので選んでみました。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">まだ在宅で自粛してるの？</p>
+                <p>まだ東京で消耗してるの？のパクリです。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">デカマラと青春</p>
+                <p></p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">彼女が欲しい。</p>
+                <p>23年間生きてきたが未だに彼女というものができたことがない。彼女がいる人間は凄すぎる。教えてくれ、どうしたら彼女ができるのか。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">NFやってるー？＾＾</p>
+                <p>加藤純一最強！</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">もうずっと感染者ゼロ人だけど、中止決定したやつどんな気持ち？</p>
+                <p>東京都はともかく、三ヶ月後の京都でもまだそんなに感染者がで続けるとは思えないため。願望を込めた予想。これをテーマにして活動して、本番で実際にそうなってたらスゴイ感がでる。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">みんなでやったらええやん</p>
+                <p>みんなでやったらええやん。抑えられない衝動もあるやん。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">誰かと繋がりたい、この気持ちは消毒できない。</p>
+                <p>一般受けしそうなポエム</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">マスクをしなくても、人間だ。</p>
+                <p>感染者バッシングやマスク強要を憂慮して</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">なんでロンバルディア肺炎って呼ばないの？</p>
+                <p>パンデミック初期の中国人差別と呼称問題に対するネトウヨへの皮肉</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">南米先住民は白人の持ち込んだ病原菌に免疫がないから負けた</p>
+                <p>レッツ自由貿易&集団免疫</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">研究所流出説はただのガセ</p>
+                <p>コロナはただの風邪とかけている</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">ファーウェイがワクチン作っても買わないの？</p>
+                <p>貿易紛争や反中の不合理さ</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">光復日本、時代革命</p>
+                <p>コロナの影響で日本をふくめ世界中が共産圏と変わらない移動制限や営業制限といった人権侵害をおこなう権威主義体制になったため</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">保険会社を破産させてみた</p>
+                <p>感染する前に入って、感染経路はばれなきゃええやろ</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">来年の春節も遊びに来てね</p>
+                <p>感染初期の中国人差別で傷ついた中国人を励ますメッセージ</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">世界一民度の高い中国人(麻生大臣公認)</p>
+                <p>中国のコロナ感染者率はもはや世界でもっとも少ないレベルになったことと麻生暴言を踏まえて</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">大丈夫。白人の感染者だよ</p>
+                <p>イタリアやアメリカの感染者には入国禁止しろとか飛行機とばすなとかいわないネトウヨへの皮肉。「大丈夫、ファミ通の攻略本だよ」とかけている(実際にはファミ通の攻略本が信憑性低いこともふくめ)</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">リアル脱出ゲーム　感染者の集まる鴨川からの脱出</p>
+                <p>よくみかけるやつ</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">世田谷自然左翼vs京都暴動中核派</p>
+                <p>ネトウヨの造語の対義語を考えてみた</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">木を隠すなら森の中</p>
+                <p>特に意味はないが、不穏な感じをだしたかった。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">喧嘩最弱の俺がコロナに感染して攻撃力9999のスーパースプレッダーになった件</p>
+                <p>なろう系</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">だから日経空売りしとけって言ったのに！</p>
+                <p>安倍に騙されてジャップ株買っちゃったサラリーマンwwwざまぁwww</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">中国化する西側、西側化する中国</p>
+                <p>某書籍のパロディ、コロナに対する各国の人権を無視した権威主義的な対処を見て思った</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">安倍ぴょんがチキン野郎でよかった</p>
+                <p>外山もにたようなこといってたらしいけど、ほんとそうね</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">マスクやめますか、人間やめますか？</p>
+                <p>薬物啓発ポスターのパロディ、マスク強制が人間性を奪っていることへの抗議</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">コロナペイ、今なら20%感染！</p>
+                <p>還元と感染で踏んでいる</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">コロナは電磁波、5G、人工甘味料、化学物質、放射能と同じくらい危険です</p>
+                <p>コロナは電磁波、5G、人工甘味料、化学物質、放射能と同じくらい危険です</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">「コロナ府」京都府を日本一の陽性自治体に！</p>
+                <p>町起こし風</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">三ヶ月洗わずに毎日着用したマスク貸します</p>
+                <p>みんなで感染しよう</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">#拡散希望</p>
+                <p>感染の拡大を希望するという意味、しかもありがちなハッシュタグになるのでバズる</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">あなたとあなたの大切な人の命を人質に取る政府こそ卑怯だ</p>
+                <p>自粛要請の偽善的文面にむかついたので</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">息ができない</p>
+                <p>ブラックライフマターと、マスクによる物理的な息苦しさ、自粛強要による社会的な息苦しさをかけている。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">コロナ？何それ、おいしいの？</p>
+                <p>京都大学医学部の某教授がおっしゃっている通り、コロナに対して自粛など無意味であり、目下経済を回すべく我々京大生も積極的に活動していかなくてどうするのだ。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">くぁwせdrftgyふじこlp</p>
+                <p>キーボードの上から三段目と四段目を二本指で左からダーする</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">給付も補償もいらない！ただ自粛解除だけが必要！</p>
+                <p>補助金はあとで多大に国民への増税としてのしかかってくる。問題を先送りしてるだけ。リボ払いと同じ</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">偽NFが面白かったと思う方はチャンネル登録と高評価よろしくお願いします。</p>
+                <p>[チャンネル登録] [高評価]</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">ホンモノ「ちょっと川の様子見てくる」</p>
+                <p>そして本物のNFは戻ってこなかった。少なくとも11月には行われなくなった。</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">コロナウイルスにyes！ココアウイルスアプリにno！</p>
+                <p>防疫を建前に政府がココアとかいうコロナより恐ろしいビッグブラザーアプリをインストールさせようとすることへの抗議</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">Better death mask than mask</p>
+                <p>赤狩り時代の合衆国のスローガン、better dead than redが元ネタ<br>マスクで自由を奪われるくらいならデスマスクになった(感染してしんだ)ほうがマシといういみ</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">マスクで顔を隠してのご入店は、防犯上の理由からお断りする場合がございます。</p>
+                <p>すこし前まではむしろ職質にあいやすい、強盗やテロリストと間違われやすいなども理由で顔を隠すほうがあやしまれた(このテーマの元ネタのように、コンビニでヘルメットをつけたまま入店できないなど)にも関わらず、政府の鶴の一声で価値観が真逆になったことへの警鐘</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">村八分シンドローム</p>
+                <p>最近の周囲の人のコロナに対する思いを聞くと、「感染することよりもそれに伴って周りから悪く思われることが嫌だ」と言う者も多い。日本人には集団から外れたものを徹底的に攻撃するような風習が昔からあるように思う。このコロナ禍においても、感染者叩きや営業を自粛しない店への嫌がらせなどが度々みられていた。最近の自粛ムードの中、本当は開催しても問題ないと思っていても周囲からの批判を過剰に恐れるばかりに開催できていないイベントも多いのではないか？コロナ対策が不要とは言わないが、周囲の目線を過剰に気にしてなんでも我慢するような悪い風習からはそろそろ脱却するべきだと思う。	</p>
+              </div>
+              <br>
+
+              <div>
+                <p class="thems_style">マスクを外して、あなたもマイノリティーが受ける苦痛を味わおう</p>
+                <p>微小攻撃性、不審な目、憎悪…マスクをしてないで出歩くことはマイノリティーが、受ける屈辱をかんたんに擬似体験する手段だ</p>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- Example row of columns -->
+        </div>
+      </div>
+      <footer>
+        <p>&copy; 2020 京都大学ニセNF実行委員会</p>
+      </footer>
+    </div>
+    <!-- /container -->
+
+    <!-- Modal_01_start -->
+    <div
+      class="modal fade"
+      id="ModalCenterF"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">
+              新型コロナウィルス感染症対策について
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              ただいま準備中です
+            </p>
+            <!-- <p>
+              これまでに国内で感染が確認された方のうち重症・軽症に関わらず約80％の方は、
+              他の人に感染させていない一方で、一定の条件を満たす場所において、
+              一人の感染者が複数人に感染させた事例が報告されています。
+              集団感染が生じた場の共通点を踏まえると、特に、<br>１．密閉空間（換気の悪い密閉空間である）、<br>
+              ２．密集場所（多くの人が密集している）、<br>
+              ３．密接場面（互いに手を伸ばしたら届く距離での会話や共同行為が行われる）<br>
+              という３つの条件のある場では、感染を拡大させるリスクが高いと考えられています。
+            </p>
+            <p>
+              とありますが自己責任です。罹患したらその際は運命力が足りていなかった。
+            </p> -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal_01_end -->
+
+    <!-- Modal_02_start -->
+    <div
+      class="modal fade"
+      id="ModalCenterS"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">
+              飲酒に関する注意
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              ただいま準備中です
+            </p>
+            <!-- <p>
+              また、成年に達した学生についても、急性アルコール中毒に注意してください。
+              短時間に大量のアルコールを摂取すると、自力で立てないほどの運動障害を起こしたり、
+              昏睡状態になることがあります。最悪の場合は呼吸停止や急性心不全が起き、死につながったり、
+              蘇生しても重篤な後遺症が残ることがあります。
+              また、こうした症状に至らなくても、足下がふらついた状態で転倒したり、
+              嘔吐により窒息死した例もみられます。
+            </p>
+            <p>
+              飲酒に当たっては、次の点を厳守してください。
+            </p>
+            <p>
+              <ul>
+              <li>未成年者の飲酒は法律違反であり、勧めない、勧められても飲まない。</li>
+              <li>成年者でも、イッキ飲み等の危険な飲酒はしない、他人にさせない。</li>
+              <li>体質的にアルコールを受け付けない人に飲酒を勧めない。</li>
+              <li>飲酒をしたら、自動車・バイク・自転車の運転をしない。</li>
+              <li>
+                万が一、酔いつぶれた者が出た場合は、
+                一人にしないで責任をもって介抱（衣服を緩め、横向きに寝かす等）すること。
+                名前を呼んだり身体をゆすっても反応せず、大きないびきや呼吸を時々しかしないなど、
+                おかしいと思ったら、直ちに救急車を呼ぶこと。
+              </li>
+              </ul>
+            </p>
+            <p>
+              京都大学「学生生活で注意してほしいこと」抜粋<br>
+              （URL:http://www.kyoto-u.ac.jp/ja/education-campus/campuslife/notice2）
+              </p> -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal_02_end -->
+
+    <!-- Modal_03_start -->
+    <div
+      class="modal fade"
+      id="ModalCenterT"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">
+              ごみ捨てについて
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              ニセNFにおいては多くのごみが発生することが予想されます。<br>
+              そこでニセNFでは、各所にゴミ箱を設置するほか、ごみ対策委員を設置し、巡回を行うなどすることで綺麗な鴨川を維持することに努めます。<br>
+              また、ニセNF参加者におかれましても以下の徹底をお願いいたします。
+            </p>
+            <ol style="list-style-type: decimal">
+              <li>ごみは分別してゴミ箱に捨てる。</li>
+              <li>近隣コンビニのゴミ箱へのごみの廃棄はしない。</li>
+              <li>自分のごみではなくともごみを見つけたらゴミ箱に捨てる。</li>
+            </ol>
+            <p>
+              鴨川を綺麗に保つため、みなさまのご協力をお願いします。
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal_03_end -->
+
+    <!-- Modal_04_start -->
+    <div
+      class="modal fade"
+      id="ModalCenterY"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">
+              鴨川の使用許可について
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              下記に従い、許可を求めています（申請準備中）
+            </p>
+            <p>
+              <a href="https://www.pref.kyoto.jp/kyotodoboku/d_qa05.html">
+                京都府「公園の許可及び届出に関すること」
+              </a>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal_04_end -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="/kyoto-u/assets/js/vendor/jquery.min.js"><\/script>'
+        );
+    </script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+<span style="color: #ff0066;"></span>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>京都大学「ニセNF」</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9
+      ]><script src="/kyoto-u/assets/js/ie8-responsive-file-warning.js"></script
+    ><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div
+      class="jumbotron"
+      style="
+        background: url(assets/img/background_top_image.jpg);
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <h1 class="display-4">
+          京都大学「<span style="color: #ff0000;">ニセ</span>NF」
+        </h1>
+        <p>
+          決選投票受付中！
+          <br><a
+          class="btn btn-info"
+          href="theme.html"
+          role="button"
+          >本年度投票テーマ案一覧について</a
+        >
+        </p>
+        <!-- <p class="lead">
+          <a class="btn btn-info" href="#" role="button">統一テーマ募集中！</a>
+        </p> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <!-- index -->
+        <li role="presentation">
+          <a href="index.html">ホーム</a>
+        </li>
+        <!-- ニセNFについて -->
+        <li role="presentation" class="active"><a href="howNF.html">ニセNFってなに？</a></li>
+        <!-- 反自粛について -->
+        <li role="presentation"><a href="antiRestraint.html">反自粛</a></li>
+        <!-- 企画内容について -->
+        <li role="presentation"><a href="planning.html">企画内容</a></li>
+        <!-- 各種ポリシー -->
+        <li role="presentation" class="dropdown">
+          <a
+            class="dropdown-toggle"
+            data-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+          >
+            運営方針 <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li role="presentation">
+              <a data-toggle="modal" data-target="#ModalCenterF">
+                新型コロナウィルス感染症対策について
+              </a>
+            </li>
+            <li role="presentation">
+              <a data-toggle="modal" data-target="#ModalCenterS">
+                飲酒に関する注意
+              </a>
+            </li>
+            <li role="presentation">
+              <a data-toggle="modal" data-target="#ModalCenterT">
+                ごみ捨てについて
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- 警察対策 -->
+        <li role="presentation">
+          <a data-toggle="modal" data-target="#ModalCenterY">
+            鴨川の使用許可
+          </a>
+        </li>
+        <li role="presentation"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+      <div class="row">
+        <div class="col-md-12">
+          <!-- タイトル -->
+          <h2 class="text-center">ニセNFってなに？</h2>
+          <!-- タイトル‗詳細 -->
+          <p class="text-center">
+            <iframe src="https://drive.google.com/file/d/1wEyH2oz4g5cjfjjOmmFKbABfz4F-YFQH/preview" width="300" height="480"></iframe>
+          </p>
+          <!-- Example row of columns -->
+        </div>
+      </div>
+      <footer>
+        <p>&copy; 2020 京都大学ニセNF実行委員会</p>
+      </footer>
+    </div>
+    <!-- /container -->
+
+    <!-- Modal_01_start -->
+    <div
+      class="modal fade"
+      id="ModalCenterF"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">
+              新型コロナウィルス感染症対策について
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              ただいま準備中です
+            </p>
+            <!-- <p>
+              これまでに国内で感染が確認された方のうち重症・軽症に関わらず約80％の方は、
+              他の人に感染させていない一方で、一定の条件を満たす場所において、
+              一人の感染者が複数人に感染させた事例が報告されています。
+              集団感染が生じた場の共通点を踏まえると、特に、<br>１．密閉空間（換気の悪い密閉空間である）、<br>
+              ２．密集場所（多くの人が密集している）、<br>
+              ３．密接場面（互いに手を伸ばしたら届く距離での会話や共同行為が行われる）<br>
+              という３つの条件のある場では、感染を拡大させるリスクが高いと考えられています。
+            </p>
+            <p>
+              とありますが自己責任です。罹患したらその際は運命力が足りていなかった。
+            </p> -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal_01_end -->
+
+    <!-- Modal_02_start -->
+    <div
+      class="modal fade"
+      id="ModalCenterS"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">
+              飲酒に関する注意
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              ただいま準備中です
+            </p>
+            <!-- <p>
+              また、成年に達した学生についても、急性アルコール中毒に注意してください。
+              短時間に大量のアルコールを摂取すると、自力で立てないほどの運動障害を起こしたり、
+              昏睡状態になることがあります。最悪の場合は呼吸停止や急性心不全が起き、死につながったり、
+              蘇生しても重篤な後遺症が残ることがあります。
+              また、こうした症状に至らなくても、足下がふらついた状態で転倒したり、
+              嘔吐により窒息死した例もみられます。
+            </p>
+            <p>
+              飲酒に当たっては、次の点を厳守してください。
+            </p>
+            <p>
+              <ul>
+              <li>未成年者の飲酒は法律違反であり、勧めない、勧められても飲まない。</li>
+              <li>成年者でも、イッキ飲み等の危険な飲酒はしない、他人にさせない。</li>
+              <li>体質的にアルコールを受け付けない人に飲酒を勧めない。</li>
+              <li>飲酒をしたら、自動車・バイク・自転車の運転をしない。</li>
+              <li>
+                万が一、酔いつぶれた者が出た場合は、
+                一人にしないで責任をもって介抱（衣服を緩め、横向きに寝かす等）すること。
+                名前を呼んだり身体をゆすっても反応せず、大きないびきや呼吸を時々しかしないなど、
+                おかしいと思ったら、直ちに救急車を呼ぶこと。
+              </li>
+              </ul>
+            </p>
+            <p>
+              京都大学「学生生活で注意してほしいこと」抜粋<br>
+              （URL:http://www.kyoto-u.ac.jp/ja/education-campus/campuslife/notice2）
+              </p> -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal_02_end -->
+
+    <!-- Modal_03_start -->
+    <div
+      class="modal fade"
+      id="ModalCenterT"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">
+              ごみ捨てについて
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              ニセNFにおいては多くのごみが発生することが予想されます。<br>
+              そこでニセNFでは、各所にゴミ箱を設置するほか、ごみ対策委員を設置し、巡回を行うなどすることで綺麗な鴨川を維持することに努めます。<br>
+              また、ニセNF参加者におかれましても以下の徹底をお願いいたします。
+            </p>
+            <ol style="list-style-type: decimal">
+              <li>ごみは分別してゴミ箱に捨てる。</li>
+              <li>近隣コンビニのゴミ箱へのごみの廃棄はしない。</li>
+              <li>自分のごみではなくともごみを見つけたらゴミ箱に捨てる。</li>
+            </ol>
+            <p>
+              鴨川を綺麗に保つため、みなさまのご協力をお願いします。
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal_03_end -->
+
+    <!-- Modal_04_start -->
+    <div
+      class="modal fade"
+      id="ModalCenterY"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">
+              鴨川の使用許可について
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              下記に従い、許可を求めています（申請準備中）
+            </p>
+            <p>
+              <a href="https://www.pref.kyoto.jp/kyotodoboku/d_qa05.html">
+                京都府「公園の許可及び届出に関すること」
+              </a>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal_04_end -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="/kyoto-u/assets/js/vendor/jquery.min.js"><\/script>'
+        );
+    </script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+<span style="color: #ff0066;"></span>
